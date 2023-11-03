@@ -26,6 +26,10 @@ Users should be able to:
 
 ![](images/screenshot.jpg)
 
+### Links
+
+- Solution URL: https://github.com/ortalyarts/frontendmentor-3column-preview-card
+- Live Site URL: https://frontendmentor-3column-preview-card.vercel.app/
 
 ### Built with
 
