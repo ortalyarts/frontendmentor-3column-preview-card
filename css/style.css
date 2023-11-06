@@ -102,30 +102,34 @@ main article:nth-child(3)::before {
   display:inline-block;
   height: 2.5rem;
 }
-button {
+a.learn-more {
+  display:block;
   width:70%;
   font-family: var(--ffparagraph);
   font-size:0.875rem;
   line-height:1.5rem;
   font-weight:400;
   letter-spacing:0.01rem;
+  text-decoration:none;
+  text-align: center;
   padding:0.7rem ;
   margin-top:5rem;
   outline: none;
 	cursor: pointer;
   border-radius: 2rem;
   border: 1px solid var(--heading);
+  background: var(--heading);
 }
-main article:nth-child(1) button {
+main article:nth-child(1) a.learn-more {
   color:var(--bg1);
 }
-main article:nth-child(2) button {
+main article:nth-child(2) a.learn-more {
   color:var(--bg2);
 }
-main article:nth-child(3) button {
+main article:nth-child(3) a.learn-more {
   color:var(--bg3);
 }
-button:hover {
+a.learn-more:hover {
   background:none;
   color:var(--heading) !important;
 }
